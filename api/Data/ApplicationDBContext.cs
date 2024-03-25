@@ -10,6 +10,6 @@ public class ApplicationDBContext : DbContext
         
     }
     
-    public DbSet<Stock> Stock { get; set; } // manipulating the whole table
+    public DbSet<Stock> Stocks { get; set; } // manipulating the whole table
     public DbSet<Comment> Comments { get; set; }
 }
